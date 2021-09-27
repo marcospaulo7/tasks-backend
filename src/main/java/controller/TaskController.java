@@ -1,4 +1,4 @@
-package br.ce.wcaquino.taskbackend.controller;
+package controller;
 
 import java.util.List;
 
