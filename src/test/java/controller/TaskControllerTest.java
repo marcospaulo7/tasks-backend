@@ -41,8 +41,7 @@ public class TaskControllerTest {
     public void naoDeveSalvartarefaSemData() {
         Task todo = new Task();
         todo.setTask("Descrição");
-        //todo.setDueDate(LocalDate.now());
-        try {
+         try {
             controller.save(todo);
             Assert.fail("Nao deveiria chegar nesse ponto");
         } catch (ValidationException e) {

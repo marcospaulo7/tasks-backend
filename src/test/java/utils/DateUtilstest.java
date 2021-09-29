@@ -1,5 +1,6 @@
-package br.ce.wcaquino.taskbackend.utils;
+package utils;
 
+import br.ce.wcaquino.taskbackend.utils.DateUtils;
 import org.junit.Assert;
 import org.junit.Test;
 
