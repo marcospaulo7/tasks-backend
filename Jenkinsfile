@@ -3,7 +3,7 @@ pipeline{
     stages {
         stage('Just Test'){
             steps{
-                bat 'echo bom que deu certo!'
+                bat 'echo bom q deu certo!'
             }
         }
     }
